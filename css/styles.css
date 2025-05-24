@@ -301,7 +301,7 @@ ul {
   padding-bottom: 100px;
   background-color: #2e2f42;
 }
-.footer-inner {
+.footer .container {
   width: 264px;
   text-align: left;
   display: flex;
@@ -318,6 +318,8 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  display: inline-block;
+  padding-bottom: 16px;
 }
 .footer-logo-second-part {
   color: #f4f4fd;
@@ -327,5 +329,5 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-top: 16px;
+  max-width: 264px;
 }
