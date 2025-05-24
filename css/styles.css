@@ -29,6 +29,7 @@ ul {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
   align-items: center;
@@ -55,6 +56,8 @@ ul {
 }
 .header-item {
   list-style: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-link {
   font-weight: 500;
@@ -143,6 +146,9 @@ ul {
   cursor: pointer;
   min-width: 169px;
   height: 56px;
+  display: block;
+  border: none;
+  border-radius: 4px;
 }
 .hero-button:hover {
   font-weight: 500;
@@ -166,6 +172,18 @@ ul {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .features .container {
   display: flex;
   flex-direction: column;
@@ -176,13 +194,15 @@ ul {
 .features-list {
   display: flex;
 }
-.features-list .features-item:nth-child(-n + 3) .features-item-wrapper {
-  margin-right: 24px;
-}
 .features-item {
   width: 264px;
   list-style: none;
   text-decoration: none;
+  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
+}
+.features-item-wrapper {
+  margin-right: 0;
 }
 .features-item-name {
   font-weight: 500;
@@ -190,7 +210,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .features-subtitles {
   font-size: 16px;
@@ -312,7 +332,7 @@ ul {
   color: #4d5ae5;
   text-decoration: none;
   display: inline-block;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-logo-second-part {
   color: #f4f4fd;
