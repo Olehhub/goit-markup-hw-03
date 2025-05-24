@@ -230,7 +230,7 @@ ul {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .members-list {
   display: flex;
@@ -242,10 +242,14 @@ ul {
   list-style: none;
   text-decoration: none;
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .members-picture {
   display: block;
   padding-bottom: 32px;
+}
+.container-name {
+  padding: 32px 0;
 }
 .members-name {
   font-weight: 500;
@@ -254,7 +258,8 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .members-subtitle {
   font-size: 16px;
