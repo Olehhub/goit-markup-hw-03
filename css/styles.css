@@ -301,6 +301,7 @@ ul {
   background-color: #ffffff;
   border-bottom: 1px;
   border-color: #e7e9fc;
+  margin-bottom: 8px;
 }
 .portfolio-picture {
   display: block;
@@ -317,7 +318,6 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-top: 32px;
-  margin-bottom: 8px;
 }
 .portfolio-description {
   font-size: 16px;
