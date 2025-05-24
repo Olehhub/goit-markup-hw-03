@@ -56,8 +56,7 @@ ul {
 }
 .header-item {
   list-style: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 .header-link {
   font-weight: 500;
@@ -193,12 +192,12 @@ ul {
 }
 .features-list {
   display: flex;
+  gap: 24px;
 }
 .features-item {
   width: 264px;
   list-style: none;
   text-decoration: none;
-  margin-right: 24px;
   width: calc((100% - 72px) / 4);
 }
 .features-item-wrapper {
