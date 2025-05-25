@@ -318,6 +318,10 @@ ul {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #2e2f42;
+  text-align: left;
+}
+.footer .container {
+  text-align: left;
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -334,20 +338,11 @@ ul {
 }
 .footer-logo-second-part {
   color: #f4f4fd;
-  display: inline-block;
 }
 .footer-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
-}
-.footer .footer-logo,
-.footer .footer-description {
-  display: block;
-  margin-left: 15px;
-  margin-right: auto;
-  text-align: left;
   max-width: 264px;
 }
