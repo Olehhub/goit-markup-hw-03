@@ -334,6 +334,7 @@ ul {
 }
 .footer-logo-second-part {
   color: #f4f4fd;
+  display: inline-block;
 }
 .footer-description {
   font-size: 16px;
