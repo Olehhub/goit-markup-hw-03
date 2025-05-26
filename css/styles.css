@@ -55,6 +55,7 @@ ul {
 }
 .header-item {
   list-style: none;
+  padding: 24px 0;
 }
 .header-link {
   font-weight: 500;
