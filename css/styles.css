@@ -63,7 +63,6 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
-  padding: 24px 0;
   display: inline-block;
 }
 .header-link:hover {
@@ -83,8 +82,6 @@ ul {
 .header-address {
   margin-left: auto;
   font-style: normal;
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
 }
