@@ -64,6 +64,7 @@ ul {
   color: #2e2f42;
   text-decoration: none;
   padding: 24px 0;
+  display: inline-block;
 }
 .header-link:hover {
   font-weight: 500;
@@ -84,11 +85,14 @@ ul {
   font-style: normal;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: flex;
+  align-items: center;
 }
 .header-address-list {
   gap: 40px;
 }
 .header-address-item {
+  display: inline-block;
   list-style: none;
 }
 .header-address-link {
@@ -128,9 +132,10 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  padding-bottom: 48px;
   max-width: 496px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .hero-button {
   font-weight: 500;
@@ -296,6 +301,7 @@ ul {
   display: block;
 }
 .portfolio-wrapper {
+  text-align: left;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
